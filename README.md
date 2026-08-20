@@ -1,3 +1,12 @@
+> ⚠️ **RETIRED 2026-08-20 — not in use.**
+> Directions API + Places API (New) are **disabled** in the GCP project
+> `ohad-gmail-mcp`, and the `maps` server was removed from the hub's `.mcp.json`.
+> Reason: Maps Platform is the only Google API in that project that requires an
+> **active billing account (a credit card on file)**; the free trial expires
+> 18/09/2026 and this tool wasn't actually being used. The code is kept as-is —
+> to revive it, re-enable both APIs in the console, restore the API key
+> restriction, and put the `maps` block back in `.mcp.json`.
+
 # maps-mcp
 
 Google Maps Platform tooling — live traffic-aware routing and place search —
